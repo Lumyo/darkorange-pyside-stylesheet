@@ -447,7 +447,13 @@ QRadioButton::indicator:hover, QCheckBox::indicator:hover
     border: 1px solid #ffaa00;
 }
 
-QCheckBox::indicator:checked
+QCheckBox::indicator:checked,
+QMenu::indicator:non-exclusive:checked,
+QGroupBox::indicator:checked,
+QTreeView::indicator:checked,
+QListView::indicator:checked,
+QTableView::indicator:checked,
+QColumnView::indicator:checked
 {
     image:url(:/images/checkbox.png);
 }
